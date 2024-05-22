@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background:linear-gradient(rgb(230, 252, 230),honeydew , white) no-repeat;
+    background-color: grey;
+
+}
+
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 2px;
+
+}
+
+li{
+width: 100%;
+text-align:center;
+padding: 5px;
+}
+
+li:hover{
+background-color: rgb(245, 208, 153);
+border-width: 2px;
+border-radius: 5px;
+cursor: pointer;
+}
+.container{
+width: 100%;
+height:auto;
+padding: 30px;
+}
+
+.sec1{
+    width: 600px;
+    height:400px;
+    position: relative;
+    margin: 10px 400px 10px 400px;
+    }
+
+.b1{
+    position: absolute;
+    top: 200px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background: grey;
+    border-radius: 4px;
+    }
+
+ .b2{
+    position: absolute;
+    right: 5px;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background: grey;
+    border-radius: 4px;
+    }
+
+.img{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px 3px;
+   }
+
+   .about{
+    position: relative;
+    width:100%;
+    height: 600px;
+   }
+
+   .about_sub{
+    display: flex;
+   }
+
+   h1:hover{
+    font-size: 50px;
+    font-family: Chakra Petch;
+    transition: 1s;
+   }
+  h1{
+    width: 250px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    cursor: pointer;
+    margin: 0 0 0 10px;
+  } 
+
+  .about_sub p{
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+ }
+
+ .about_sub p:hover{
+background-color: rgb(254, 255, 188);
+border-radius: 20px;
+font-size: 19px;
+font-family: Chakra Petch;
+box-shadow: 0 10px 20px 3px;
+transition: 0.099s;
+ }
+
+
+ .img2{
+    width: 35%;
+    height: 400px;
+    position:absolute;
+    border-radius: 100px;
+    box-shadow: 0 10px 20px 3px;
+    right: 250px;
+    bottom:30px;
+ }
+
+
+ .img3{
+    width: 35%;
+    height: 400px;
+    position:absolute;
+    border-radius: 100px;
+    box-shadow: 0 10px 20px 3px;
+    right: 1px;
+    top: 15px;
+ }
+
+ .gallery{
+width: 100%;
+padding: 10px;
+ }
+
+ .gallery h1{
+    font-size: 50px;
+    color: black;
+
+ }
+ .gallery_container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+ }
+
+ .gallery-item img{
+padding: 0; 
+border-radius: 20px;
+margin: 0 0 10px;
+height: 200px;
+width: 200px;
+}
+
+.gallery-item img:hover{
+    padding: 0; 
+    border-radius: 20px;
+    box-shadow: 1px 10px 20px 3px;
+    margin: 0 0 10px;
+    margin-left:3px ;
+    margin-right: 3px;
+    cursor: pointer;
+    }
+
+.blog1{
+    display: flex;
+    height: 450px;
+    position: relative;
+    cursor: pointer;
+}
+
+.blog-text h2{
+    font-size: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.blog-text p{
+    height: 400px;
+    width: 600px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.blog-img{
+    margin-top: 30px;
+    height:50%;
+    width: 50%;
+    cursor: pointer;
+}
+
+.blog-img img{
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.blog-text h4{
+  position: absolute;
+  bottom: 7px;
+  right: 10px;
+}
+
+.blog-text p:hover{
+    background-color: rgb(254, 255, 188);
+    border-radius: 20px;
+    font-family: Chakra Petch;
+    box-shadow: 0 10px 20px 3px;
+    transition: 0.099s;
+    height:370px;
+    cursor: pointer;
+}
+
+.blog2{
+    display: flex;
+    height: 450px;
+    position: relative;
+    cursor: pointer;
+}
+
+.blog3{
+    display: flex;
+    height: 450px;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.contact-section{
+    height: 750px;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.contact{
+    padding:10px;
+    display: flex;
+}
+
+.contact-section h3{
+    position: absolute;
+    top: 50px;
+    font-size: 40px;
+}
+
+.address{
+    position: absolute;
+    color: rgb(98, 205, 255);
+    padding: 5px;
+    font-family: Chakra Petch ;
+    font-size: 25px;
+    top: 150px;
+}
+
+.address:hover{
+    cursor: pointer;
+}
+
+.form{
+    padding: 10px;
+    position: absolute;
+    right: 230px;
+}
+
+input:hover{
+    cursor: pointer;
+    box-shadow: 0 1px 5px 1px;
+}
+
+fieldset {
+    width: 600px;
+}
+ 
+.map iframe{
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 25px;
+}
